@@ -31,7 +31,7 @@ int main() {
     serial[strcspn(serial, "\n")] = 0;
 
     if (validate(name, serial)) {
-        puts("✅ Correct serial! Welcome!");
+        puts("✅ Correct Serial! Welcome!");
     } else {
         puts("❌ Invalid serial.");
     }
